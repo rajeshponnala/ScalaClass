@@ -1,0 +1,23 @@
+(
+ :root-dir "/media/rajesh/PROJECTS/ScalaProjects/ScalaClass"
+ :cache-dir "/media/rajesh/PROJECTS/ScalaProjects/ScalaClass/.ensime_cache"
+ :name "scalaclass"
+ :java-home "/usr/lib/jvm/java-8-oracle"
+ :java-flags ("-Dactivator.home=/home/rajesh/activator-1.2.12" "-Xms1024m" "-Xmx1024m" "-XX:MetaspaceSize=64m" "-XX:MaxMetaspaceSize=256m")
+ :reference-source-roots ("/usr/lib/jvm/java-8-oracle/src.zip")
+ :scala-version "2.11.1"
+ :compiler-args nil
+ 
+ :subprojects ((
+   :name "scalaclass"
+   :module-name "scalaclass"
+   :source-roots ("/media/rajesh/PROJECTS/ScalaProjects/ScalaClass/src/main/scala" "/media/rajesh/PROJECTS/ScalaProjects/ScalaClass/src/main/java" "/media/rajesh/PROJECTS/ScalaProjects/ScalaClass/src/test/scala" "/media/rajesh/PROJECTS/ScalaProjects/ScalaClass/src/test/java")
+   :target "/media/rajesh/PROJECTS/ScalaProjects/ScalaClass/target/scala-2.11/classes"
+   :test-targets ("/media/rajesh/PROJECTS/ScalaProjects/ScalaClass/target/scala-2.11/test-classes")
+   :depends-on-modules nil
+   :compile-deps ("/home/rajesh/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.1.jar")
+   :runtime-deps nil
+   :test-deps ("/home/rajesh/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.0.jar" "/home/rajesh/.ivy2/cache/org.scalatest/scalatest_2.11/jars/scalatest_2.11-2.1.6.jar" "/home/rajesh/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar" "/home/rajesh/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar")
+   :reference-source-roots ("/home/rajesh/.ivy2/cache/org.scalatest/scalatest_2.11/srcs/scalatest_2.11-2.1.6-sources.jar" "/home/rajesh/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/srcs/scala-xml_2.11-1.0.1-sources.jar" "/home/rajesh/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.11.1-sources.jar" "/home/rajesh/.ivy2/cache/org.scala-lang/scala-reflect/srcs/scala-reflect-2.11.0-sources.jar" "/home/rajesh/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/srcs/scala-parser-combinators_2.11-1.0.1-sources.jar")))
+ 
+)
