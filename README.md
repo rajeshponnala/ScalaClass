@@ -1,0 +1,2 @@
+# ScalaClass
+ScalaClass code
