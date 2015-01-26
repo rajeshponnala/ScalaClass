@@ -10,6 +10,9 @@ object Hello {
     lr.reverse(List("a","n","n","i","h","c")).foreach(println)
     println("min : " + minmax._1)
     println("max : " + minmax._2)
-
+     val r1=new Rational(5,6)
+    val r2=new Rational(1,3)
+    println(r1.add(r2))
+    println(r1 + r2)
 }
 }
