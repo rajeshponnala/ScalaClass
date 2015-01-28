@@ -14,5 +14,7 @@ object Hello {
     val r2=new Rational(1,3)
     println(r1.add(r2))
     println(r1 + r2)
+    val funcs=Functions
+    funcs.removeIf(x => x < 5,List(1,2,3,4,5,6,7,8,9,10,11)).foreach(println)
 }
 }
