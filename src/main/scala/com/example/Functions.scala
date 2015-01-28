@@ -11,4 +11,16 @@ object Functions {
         res+=e
     res
    }
+
+ def evens(L: Vector[Int]): ListBuffer[Int]=
+ {
+   var res=ListBuffer.empty[Int]
+   for(e <- L)
+      if(e%2==0)
+       res+=e
+   res
+ }
+
+
+
 }
