@@ -21,6 +21,7 @@ object Functions {
    res
  }
 
+  def twice(fn: Int => Int,V: Int)=fn(fn(V))
 
 
 }
