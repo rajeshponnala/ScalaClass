@@ -23,5 +23,7 @@ object Functions {
 
   def twice(fn: Int => Int,V: Int)=fn(fn(V))
 
+ def Zip3[A,B,C](l1: List[A],l2: List[B],l3: List[C]): List[(A,B,C)]= l1 zip l2 zip l3 map { case ((x,y),z) => (x,y,z)}
+
 
 }
